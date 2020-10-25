@@ -1,0 +1,96 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: .65
+}
+.chat-header{
+    display: flex;
+    align-items:center;
+    background-color: #EDEDED;
+    border-left: 1px solid lightgrey ;
+    border-bottom: 1px solid lightgrey;
+    height: 24px;
+    padding: 20px;
+}
+.chat-headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+.chat-headerInfo > h3{
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.chat-body{
+    flex: 1;
+    background-image: url("https://wallpaperaccess.com/full/2224368.png");
+    background-repeat:repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: auto;
+}
+.chat-msg{
+    font-size: 16px;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: fit-content;
+    border-radius: 1px 10px 10px 15px;
+    margin-bottom:20px;
+
+}
+.chat-username{
+    top: -20px;
+    left:0px;
+    position: absolute;
+    font-weight: 800;
+    padding: 2px;
+    font-size: small;
+    color : #ffa97a
+}
+.chat-time{
+    margin-left: 2px;
+    font-size:x-small;
+    color: lightgrey;
+}
+.chat-msg-recive{
+    font-size: 16px;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    background-color:#dcf8c6;
+    border-radius: 10px 15px 1px 10px;
+    margin-bottom:20px;
+}
+.chat-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border-top: 1px solid #f0f0f0;
+}
+.chat-footer > form{
+    display: flex;
+    flex: 1;
+    
+}
+.chat-footer >form > input {
+    flex: 1;
+    border-radius: 20px;
+    padding: 10px;
+    border:none;
+    height: 20px;
+    outline:none;
+    margin-right:5px;
+}
+.chat-footer > form > button{
+    display: none;
+    outline: none;
+}
+.chat-footer > form > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
+
